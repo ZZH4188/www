@@ -17,7 +17,7 @@
     <div class="card-body p-4">
         <div class="row mb-4">
             <div class="col-md-6">
-                <h4>My Company</h4>
+                <h4>My Card</h4>
                 <p class="text-muted mb-0">Sales Invoice</p>
             </div>
             <div class="col-md-6 text-md-end">
@@ -52,14 +52,14 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
+                        <td>card</td>
+                        <td>$12.00</td>
                         <td>1</td>
-                        <td class="text-end">$1,200.00</td>
+                        <td class="text-end">$12.00</td>
                     </tr>
                     <tr><td colspan="5" class="text-center">No products added to this order</td></tr>
                 </tbody>
-                <tfoot><tr><th colspan="4" class="text-end">Grand Total</th><th class="text-end">$1,200.00</th></tr></tfoot>
+                <tfoot><tr><th colspan="4" class="text-end">Grand Total</th><th class="text-end">$12.00</th></tr></tfoot>
             </table>
         </div>
         <a href="orderdetails.php" class="btn btn-secondary print-hide"><i class="bi bi-arrow-left me-1"></i>Back to Details</a>
@@ -68,15 +68,15 @@
 
 <style>
 @media print {
-    /* 隐藏侧边栏、顶部汉堡导航栏 */
+   
     .sidebar, .side-nav, .navbar-header, .offcanvas {
         display: none !important;
     }
-    /* 隐藏打印按钮、返回按钮 */
+    
     .print-hide {
         display: none !important;
     }
-    /* 清除所有card阴影、边框 */
+
     .card {
         box-shadow: none !important;
         border: none !important;

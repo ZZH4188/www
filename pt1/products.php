@@ -45,10 +45,10 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="Cervelo">91</option>
+                        <option value="Geometric">67</option>
+                        <option value="Tecc">Genshin Impact</option>
+                        <option value="Nosh">MING CHAO</option>
                     </select>
                 </div>
  
@@ -131,9 +131,9 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
-                        <td>Cervelo</td>
+                        <td>Advanced Card</td>
+                        <td>$12.00</td>
+                        <td>Genshin Impact</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
