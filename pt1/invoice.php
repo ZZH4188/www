@@ -69,7 +69,7 @@
 <style>
 @media print {
    
-    .sidebar, .side-nav, .navbar-header, .offcanvas {
+    .sidebar, .side-nav, .navbar-header, .offcanvas, .meanu-header, .top-menu {
         display: none !important;
     }
     
@@ -84,6 +84,13 @@
     body {
         margin: 0;
         padding: 0;
+    }
+    #mySidebar {
+        display: none !important;
+    }
+
+    #myBurger {
+        display: none !important;
     }
     @page {
         size: A4;
