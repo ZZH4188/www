@@ -53,25 +53,23 @@ ob_start();
                 </div>
  
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Condition <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="product_condition" class="form-label">Kinds <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Condition</option>
-                        <option value="New">New</option>
-                        <option value="Used">Used</option>
+                        <option value="">Select Kind</option>
+                        <option value="Poker">Poker</option>
+                        <option value="Tarot">Tarot</option>
                     </select>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="year" class="form-label"> Style <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Year</option>
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
+                        <option value="">Select Kind</option>
+                        <option value="constellation">constellation</option>
+                        <option value="god">God</option>
+                        <option value="flower">Flower</option>
+                        <option value="ocean">Ocean</option>
+                        
                     </select>
                 </div>
                  
